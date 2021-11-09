@@ -31,6 +31,9 @@ const AuctionView = () => {
     const asyncFetchAuction = async () => {
       const auction = await fetchAuction(auctionId)
       setAuction(auction)
+      if ( auction.tokenmetadata === undefined || auction.tokenmetadata === null) {
+        auction.tokenmetadata = 'https://gomint.me/api/query/hauction_v1.php?tokenId=' + auction.tokenid
+      }
       const auctionImage = await fetchAuctionImage(auction.tokenmetadata)  
       setAuctionImage(auctionImage.image.description)
     }
