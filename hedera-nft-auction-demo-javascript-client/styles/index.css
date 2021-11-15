@@ -66,47 +66,35 @@ button {
 .bg-purple-gradient {
   background: -moz-linear-gradient(
     0% 50% 0deg,
-    rgba(46, 113, 239, 1) 0%,
-    rgba(58, 109, 240, 1) 21.7%,
-    rgba(90, 99, 243, 1) 60.86%,
-    rgba(128, 87, 246, 1) 100%
+    rgba(77,227,138,1) 35%,
+    rgba(98,179,244,1) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
-    rgba(46, 113, 239, 1) 0%,
-    rgba(58, 109, 240, 1) 21.7%,
-    rgba(90, 99, 243, 1) 60.86%,
-    rgba(128, 87, 246, 1) 100%
+    rgba(77,227,138,1) 35%,
+    rgba(98,179,244,1) 100%
   );
   background: -webkit-gradient(
     linear,
     0% 50%,
     100% 50%,
-    color-stop(0, rgba(46, 113, 239, 1)),
-    color-stop(0.217, rgba(58, 109, 240, 1)),
-    color-stop(0.6086, rgba(90, 99, 243, 1)),
-    color-stop(1, rgba(128, 87, 246, 1))
+    color-stop(0.35, rgba(77,227,138,1)),
+    color-stop(1, rgba(98,179,244,1))
   );
   background: -o-linear-gradient(
     0deg,
-    rgba(46, 113, 239, 1) 0%,
-    rgba(58, 109, 240, 1) 21.7%,
-    rgba(90, 99, 243, 1) 60.86%,
-    rgba(128, 87, 246, 1) 100%
+    rgba(77,227,138,1) 35%,
+    rgba(98,179,244,1) 100%
   );
   background: -ms-linear-gradient(
     0deg,
-    rgba(46, 113, 239, 1) 0%,
-    rgba(58, 109, 240, 1) 21.7%,
-    rgba(90, 99, 243, 1) 60.86%,
-    rgba(128, 87, 246, 1) 100%
+    rgba(77,227,138,1) 35%,
+    rgba(98,179,244,1) 100%
   );
   background: linear-gradient(
     90deg,
-    rgba(46, 113, 239, 1) 0%,
-    rgba(58, 109, 240, 1) 21.7%,
-    rgba(90, 99, 243, 1) 60.86%,
-    rgba(128, 87, 246, 1) 100%
+    rgba(77,227,138,1) 35%,
+    rgba(98,179,244,1) 100%
   );
 }
 
@@ -115,27 +103,35 @@ button {
   border-width: 1px;
 }
 
+.border-green {
+  background: -moz-linear-gradient(
+    rgba(255,255,255,1) 14%, 
+    rgba(77,227,138,1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255,255,255,1) 14%,
+    rgba(77,227,138,1) 100%
+  );
+}
+
 .border-gradient-purple {
   border-image-source: linear-gradient(
     to left,
-    rgba(128, 87, 246, 1),
-    rgba(46, 113, 239, 1)
+    rgba(255,255,255,1) 14%, 
+    rgba(77,227,138,1) 100%
   );
 }
 
 .purple-gradient-border {
   background: -moz-linear-gradient(
-    rgba(46, 113, 239, 1) 0%,
-    rgba(58, 109, 240, 1) 21.7%,
-    rgba(90, 99, 243, 1) 60.86%,
-    rgba(128, 87, 246, 1) 100%
+    rgba(255,255,255,1) 14%, 
+    rgba(77,227,138,1) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
-    rgba(46, 113, 239, 1) 0%,
-    rgba(58, 109, 240, 1) 21.7%,
-    rgba(90, 99, 243, 1) 60.86%,
-    rgba(128, 87, 246, 1) 100%
+    rgba(255,255,255,1) 14%,
+    rgba(77,227,138,1) 100%
   );
 }
 

@@ -25,7 +25,7 @@ const Link = ({ item, isMobile, closeMenu, externalLink, className }) => {
     <div
       style={{
         width: '36px',
-        border: '1px solid #5266F1',
+        border: '1px solid #4de38a',
         position: 'relative',
         bottom: '1px',
       }}
@@ -98,7 +98,7 @@ const TopBarMenu = () => {
   return (
     <div
       as='nav'
-      className='sm:py-2 py-4 bg-black text-white border-b border-indigo-500 theme-margin'
+      className='sm:py-2 py-4 bg-black text-white border-b border-white theme-margin'
     >
       <div className='mx-auto'>
         <div className='relative flex items-center justify-between h-20'>
@@ -120,7 +120,8 @@ const TopBarMenu = () => {
                 onClick={goToHomePage}
               /> */}
               <img
-                src='/assets/nft-auction.png'
+                width="140px"
+                src='/assets/gomint-auction.png'
                 onClick={goToHomePage}
                 className='cursor-pointer'
               />

@@ -144,7 +144,7 @@ const LiveAuctionCard = ({ auction, showStatus }) => {
             </p>
           </div>
         </div>
-        <div className='flex justify-between font-bold border-t border-indigo-600 pt-2 pb-4 px-4'>
+        <div className='flex justify-between font-bold border-t border-white pt-2 pb-4 px-4'>
           <CardFooter />
         </div>
       </div>
